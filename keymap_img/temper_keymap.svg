@@ -340,7 +340,8 @@ path {
 </g>
 <g transform="translate(520, 170)" class="key keypos-25">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;DOT</text>
+<text x="0" y="0" class="key tap">.</text>
+<text x="0" y="-24" class="key shifted">&gt;</text>
 </g>
 <g transform="translate(580, 162)" class="key keypos-26">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
