@@ -80,7 +80,7 @@
             #binding-cells = <0>;
             bindings = <&kp LT>, <&kp GT>;
             mods = <(MOD_LSFT)>;
-        }
+        };
     };
         keymap {
                 compatible = "zmk,keymap";
