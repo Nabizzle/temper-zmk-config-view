@@ -209,7 +209,7 @@ path {
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
 <text x="0" y="0" class="key tap">⇧</text>
 <text x="0" y="40" class="key hold">sticky</text>
-<text x="0" y="-40" class="key shifted">⇪</text>
+<text x="0" y="-40" class="key shifted">CAPS</text>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
