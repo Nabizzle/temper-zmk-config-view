@@ -36,7 +36,7 @@
             compatible = "zmk,behavior-mod-morph";
             label = "SMART_SHIFT";
             #binding-cells = <0>;
-            bindings = <&sk LSHFT>, <&caps_word>;
+            bindings = <&sk LSHFT>, <&kp CAPS>;
             mods = <(MOD_LSFT)>;
         };
         comma_semi: comma_semi {
@@ -87,7 +87,6 @@
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&sl NUM>, <&tog NUM>;
-            mods = <(MOD_LSFT)>;
         };
     };
         keymap {
