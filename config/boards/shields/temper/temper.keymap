@@ -88,6 +88,13 @@
             tapping-term-ms = <200>;
             bindings = <&sl NUM>, <&tog NUM>;
         };
+        toggle_nav: toggle_nav {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TOGGLE_NAV";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&sl NAV>, <&tog NAV>;
+        };
     };
         keymap {
                 compatible = "zmk,keymap";

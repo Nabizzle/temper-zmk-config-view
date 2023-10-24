@@ -196,6 +196,8 @@ parse_config:
     '&ltog LGUI 7': {t: "Cancel\nSym", h: '⊞'}
     '&ltog LGUI 8': {t: "Cancel\nFunc", h: '⊞'}
     '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '⊞'}
+    'toggle_num': {t: NUM, TOG NUM}
+    'toggle_nav': {t: NAV, TOG NAV}
   skip_binding_parsing: false
   zmk_keycode_map:
     AMPERSAND: '&'
@@ -301,7 +303,6 @@ parse_config:
     LC(Z): "UNDO"
     LC(X): "CUT"
     LC(V): "PASTE"
-    toggle_num: NUM
     'LS(LC(LG(LALT)))': 'HYPER'
     'RS(RC(RG(RALT)))': 'HYPER'
     'LC(LG(LALT))': 'MEH'
