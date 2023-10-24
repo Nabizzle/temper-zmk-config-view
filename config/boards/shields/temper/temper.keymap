@@ -95,6 +95,13 @@
             tapping-term-ms = <200>;
             bindings = <&sl NAV>, <&tog NAV>;
         };
+        plus_morph: plus_morph {
+            compatible = "zmk,behavior-mod-morph";
+            label = "PLUS_MORPH";
+            #binding-cells = <0>;
+            bindings = <&kp PLUS>, <&kp EQUAL>;
+            mods = <(MOD_LSFT)>;
+        };
     };
         keymap {
                 compatible = "zmk,keymap";
@@ -130,7 +137,7 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
       &kp GRAVE      &kp AT        &kp LBRC      &kp RBRC     &kp PRCNT          &kp STAR       &kp N7        &kp N8        &kp N9      &kp MINUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp CARET      &kp HASH      &kp LPAR      &kp RPAR      &kp DLLR          &kp SLASH       &kp N4        &kp N5        &kp N6      &kp PLUS
+      &kp CARET      &kp HASH      &kp LPAR      &kp RPAR      &kp DLLR          &kp SLASH       &kp N4        &kp N5        &kp N6    &plus_morph
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp BSLH       &kp APOS      &kp LBKT      &kp RBKT      &lt_gt            &kp DOT         &kp N1        &kp N2        &kp N3      &kp RET
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
