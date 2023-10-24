@@ -297,6 +297,10 @@ parse_config:
     LA(RIGHT): ↠
     LG(LEFT): ⇤
     LG(RIGHT): ⇥
+    LC(C): "COPY"
+    LC(Z): "UNDO"
+    LC(X): "CUT"
+    LC(V): "PASTE"
     'LS(LC(LG(LALT)))': 'HYPER'
     'RS(RC(RG(RALT)))': 'HYPER'
     'LC(LG(LALT))': 'MEH'
