@@ -1,15 +1,7 @@
 <svg width="847" height="1473" viewBox="0 0 847 1473" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
-<svg id="tabler:brand-windows">
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-windows" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M17.8 20l-12 -1.5c-1 -.1 -1.8 -.9 -1.8 -1.9v-9.2c0 -1 .8 -1.8 1.8 -1.9l12 -1.5c1.2 -.1 2.2 .8 2.2 1.9v12.1c0 1.2 -1.1 2.1 -2.2 1.9z" />
-  <path d="M12 5l0 14" />
-  <path d="M4 12l16 0" />
-</svg>
-
-
-
+<svg id="material:menu_open">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M120-240v-60h520v60H120Zm678-52L609-481l188-188 43 43-145 145 146 146-43 43ZM120-452v-60h400v60H120Zm0-208v-60h520v60H120Z"/></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* font and background color specifications */
@@ -213,7 +205,7 @@ path {
 </g>
 <g transform="translate(188, 228)" class="key keypos-30">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<use href="#tabler:brand-windows" xlink:href="#tabler:brand-windows" x="-7" y="-7" height="14" width="14.0" class="key tap glyph tabler:brand-windows"/>
+<use href="#material:menu_open" xlink:href="#material:menu_open" x="-4" y="-7" height="14" width="7.0" class="key tap glyph material:menu_open"/>
 </g>
 <g transform="translate(254, 236) rotate(15.0)" class="key keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -482,7 +474,7 @@ path {
 </g>
 <g transform="translate(208, 106)" class="key keypos-13">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<use href="#tabler:brand-windows" xlink:href="#tabler:brand-windows" x="-7" y="-7" height="14" width="14.0" class="key tap glyph tabler:brand-windows"/>
+<use href="#material:menu_open" xlink:href="#material:menu_open" x="-4" y="-7" height="14" width="7.0" class="key tap glyph material:menu_open"/>
 <text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(267, 114)" class="key trans keypos-14">
