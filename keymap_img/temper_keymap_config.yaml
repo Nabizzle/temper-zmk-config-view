@@ -163,7 +163,7 @@ parse_config:
     '&mm_grescm': {t: '⎋', s: '` ~'}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
     '&bspc_del': {t: '⌫', s: '⌦'}
-    '&mm_grescm_gui': {t: ⎋, h: $$tabular:brand-windows$$, s: '~ `'}
+    '&mm_grescm_gui': {t: ⎋, h: '$$tabular:brand-windows$$', s: '~ `'}
     '&mm_spc_unds_layer': {t: '⎵', h: 'SYM', s: '_ -'}
     '&mm_plus_minus': {t: '+', s: '-'}
     '&mm_grave_caret': {t: '`', s: '^'}
@@ -277,19 +277,19 @@ parse_config:
     UNDERSCORE: _
     LCTRL: "CTRL"
     LALT: "ALT"
-    LGUI: $$tabular:brand-windows$$
+    LGUI: '$$tabular:brand-windows$$'
     LSHFT: ⇧
     RCTRL: "CTRL"
     LEFT_CONTROL: "CTRL"
     LEFT_ALT: "ALT"
-    LEFT_GUI: $$tabular:brand-windows$$
+    LEFT_GUI: '$$tabular:brand-windows$$'
     LEFT_SHFT: ⇧
     RALT: "ALT"
-    RGUI: $$tabular:brand-windows$$
+    RGUI: '$$tabular:brand-windows$$'
     RSHFT: ⇧
     RIGHT_CONTROL: "CTRL"
     RIGHT_ALT: "ALT"
-    RIGHT_GUI: $$tabular:brand-windows$$
+    RIGHT_GUI: '$$tabular:brand-windows$$'
     RIGHT_SHFT: ⇧
     LEFT: ←
     RIGHT: →
