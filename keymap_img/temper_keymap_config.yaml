@@ -163,7 +163,7 @@ parse_config:
     '&mm_grescm': {t: '⎋', s: '` ~'}
     '&mm_bspc_del': {t: '⌫', s: '⌦'}
     '&bspc_del': {t: '⌫', s: '⌦'}
-    '&mm_grescm_gui': {t: ⎋, h: '$$tabler:brand-windows$$', s: '~ `'}
+    '&mm_grescm_gui': {t: ⎋, h: '$$material:menu_open$$', s: '~ `'}
     '&mm_spc_unds_layer': {t: '⎵', h: 'SYM', s: '_ -'}
     '&mm_plus_minus': {t: '+', s: '-'}
     '&mm_grave_caret': {t: '`', s: '^'}
@@ -178,7 +178,7 @@ parse_config:
     '&mm_1_cut': '1'
     '&mm_2_copy': '2'
     '&mm_5_save': '5'
-    '&swapper_cmd_tab': {t: '$$tabler:brand-windows$$↹'}
+    '&swapper_cmd_tab': {t: '$$material:menu_open$$↹'}
     '&td_at_email': {t: '@'}
     '&num_word': 'NUM'
     '&nav_word': 'NAV'
@@ -191,11 +191,11 @@ parse_config:
     '&m_type_md_code_block': '```'
     '&kt LSHFT': "⇧\nLock"
     '&lt_num_word 4 0': {t: "Num\nWord", h: 'Num'}
-    '&ltog LGUI 5': {t: "Cancel\nNav", h: '$$tabler:brand-windows$$'}
-    '&ltog LGUI 6': {t: "Cancel\nNum", h: '$$tabler:brand-windows$$'}
-    '&ltog LGUI 7': {t: "Cancel\nSym", h: '$$tabler:brand-windows$$'}
-    '&ltog LGUI 8': {t: "Cancel\nFunc", h: '$$tabler:brand-windows$$'}
-    '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '$$tabler:brand-windows$$'}
+    '&ltog LGUI 5': {t: "Cancel\nNav", h: '$$material:menu_open$$'}
+    '&ltog LGUI 6': {t: "Cancel\nNum", h: '$$material:menu_open$$'}
+    '&ltog LGUI 7': {t: "Cancel\nSym", h: '$$material:menu_open$$'}
+    '&ltog LGUI 8': {t: "Cancel\nFunc", h: '$$material:menu_open$$'}
+    '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '$$material:menu_open$$'}
     '&toggle_num': {t: "NUM", h: "TOG NUM"}
     '&toggle_nav': {t: "NAV", h: "TOG NAV"}
     '&plus_morph': {t: "+", s: "="}
@@ -277,19 +277,19 @@ parse_config:
     UNDERSCORE: _
     LCTRL: "CTRL"
     LALT: "ALT"
-    LGUI: '$$tabler:brand-windows$$'
+    LGUI: '$$material:menu_open$$'
     LSHFT: ⇧
     RCTRL: "CTRL"
     LEFT_CONTROL: "CTRL"
     LEFT_ALT: "ALT"
-    LEFT_GUI: '$$tabler:brand-windows$$'
+    LEFT_GUI: '$$material:menu_open$$'
     LEFT_SHFT: ⇧
     RALT: "ALT"
-    RGUI: '$$tabler:brand-windows$$'
+    RGUI: '$$material:menu_open$$'
     RSHFT: ⇧
     RIGHT_CONTROL: "CTRL"
     RIGHT_ALT: "ALT"
-    RIGHT_GUI: '$$tabler:brand-windows$$'
+    RIGHT_GUI: '$$material:menu_open$$'
     RIGHT_SHFT: ⇧
     LEFT: ←
     RIGHT: →
@@ -319,13 +319,13 @@ parse_config:
     'RS(RC(RG(RALT)))': 'HYPER'
     'LC(LG(LALT))': 'MEH'
     'RC(RG(RALT))': 'MEH'
-    'LG(Q)': '$$tabler:brand-windows$$Q'
-    'LG(W)': '$$tabler:brand-windows$$W'
-    'LG(GRAVE)': '$$tabler:brand-windows$$`'
-    'LG(Z)': '$$tabler:brand-windows$$Z'
-    'LG(X)': '$$tabler:brand-windows$$X'
-    'LG(C)': '$$tabler:brand-windows$$C'
-    'LG(V)': '$$tabler:brand-windows$$V'
+    'LG(Q)': '$$material:menu_open$$Q'
+    'LG(W)': '$$material:menu_open$$W'
+    'LG(GRAVE)': '$$material:menu_open$$`'
+    'LG(Z)': '$$material:menu_open$$Z'
+    'LG(X)': '$$material:menu_open$$X'
+    'LG(C)': '$$material:menu_open$$C'
+    'LG(V)': '$$material:menu_open$$V'
     'LC(TAB)': '"CTRL"↹'
     'LS(LC(TAB))': '"CTRL"⇧↹'
 #   zmk_combos:
