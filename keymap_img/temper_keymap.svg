@@ -477,9 +477,11 @@ path {
 <use href="#mdil:menu" xlink:href="#mdil:menu" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdil:menu"/>
 <text x="0" y="24" class="key hold">sticky</text>
 </g>
-<g transform="translate(267, 114)" class="key trans keypos-14">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(267, 114)" class="key keypos-14">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">DELETE</tspan><tspan x="0" dy="1.2em">WORD</tspan>
+</text>
 </g>
 <g transform="translate(520, 114)" class="key keypos-15">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
