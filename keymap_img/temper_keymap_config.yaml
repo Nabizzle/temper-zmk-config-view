@@ -315,6 +315,7 @@ parse_config:
     LC(X): "CUT"
     LC(V): "PASTE"
     LC(Y): "REDO"
+    LC(BACKSPACE): "DELETE\nWORD"
     'LS(LC(LG(LALT)))': 'HYPER'
     'RS(RC(RG(RALT)))': 'HYPER'
     'LC(LG(LALT))': 'MEH'
