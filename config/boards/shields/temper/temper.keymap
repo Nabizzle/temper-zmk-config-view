@@ -86,14 +86,14 @@
             label = "TOGGLE_NUM";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp NUM>, <&tog NUM>;
+            bindings = <&mo NUM>, <&tog NUM>;
         };
         toggle_nav: toggle_nav {
             compatible = "zmk,behavior-tap-dance";
             label = "TOGGLE_NAV";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp NAV>, <&tog NAV>;
+            bindings = <&mo NAV>, <&tog NAV>;
         };
         plus_morph: plus_morph {
             compatible = "zmk,behavior-mod-morph";
@@ -141,7 +141,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &kp BSLH       &kp SEMI      &kp LBKT      &kp RBKT      &lt_gt            &kp DOT        &kp N1        &kp N2        &kp N3     &kp ENTER
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                    &trans        &trans        &trans           &trans         &trans    &mt LSHFT N0
+                                    &trans        &trans        &trans           &trans         &trans    &mt RSHFT N0
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
