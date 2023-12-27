@@ -214,9 +214,7 @@ path {
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap">⇧</text>
-<text x="0" y="40" class="key hold">sticky</text>
-<text x="0" y="-40" class="key shifted">CAPS</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;smart_shft</tspan></text>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
@@ -709,9 +707,10 @@ path {
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F10</text>
 </g>
-<g transform="translate(188, 228)" class="key trans keypos-30">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(188, 228)" class="key keypos-30">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">qwerty</text>
+<text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(254, 236) rotate(15.0)" class="key trans keypos-31">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
