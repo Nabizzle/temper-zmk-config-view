@@ -33,11 +33,11 @@
             keep-mods = <(MOD_RSFT)>;
         };
         smart_shft: smart_shift {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             label = "SMART_SHIFT";
             #binding-cells = <0>;
-            bindings = <&sk LSHFT>, <&kp CAPS>;
-            mods = <(MOD_LSFT)>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHFT>, <&kp CAPS>;
         };
         comma_semi: comma_semi {
             compatible = "zmk,behavior-mod-morph";
