@@ -74,13 +74,6 @@
             bindings = <&kp AMPS>, <&kp PIPE>;
             mods = <(MOD_LSFT)>;
         };
-        lt_gt: lt_gt {
-            compatible = "zmk,behavior-mod-morph";
-            label = "LT_GT";
-            #binding-cells = <0>;
-            bindings = <&kp LT>, <&kp GT>;
-            mods = <(MOD_LSFT)>;
-        };
         toggle_num: toggle_num {
             compatible = "zmk,behavior-tap-dance";
             label = "TOGGLE_NUM";
@@ -137,9 +130,9 @@
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
       &kp GRAVE      &kp AT        &kp LBRC      &kp RBRC     &kp PRCNT          &kp STAR       &kp N7        &kp N8        &kp N9      &kp MINUS
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &bspc_del      &kp HASH      &kp LPAR      &kp RPAR      &kp DLLR          &kp SLASH      &kp N4        &kp N5        &kp N6     &plus_morph
+      &bspc_del      &kp HASH      &kp LPAR      &kp RPAR     &kp DLLR           &kp SLASH      &kp N4        &kp N5        &kp N6     &plus_morph
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp BSLH       &kp SEMI      &kp LBKT      &kp RBKT      &lt_gt            &kp DOT        &kp N1        &kp N2        &kp N3     &kp ENTER
+      &kp BSLH       &kp SEMI      &kp LBKT      &kp RBKT       &AMPS            &kp DOT        &kp N1        &kp N2        &kp N3     &kp ENTER
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
                                     &trans        &trans        &trans           &trans         &trans    &mt LSHFT N0
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
