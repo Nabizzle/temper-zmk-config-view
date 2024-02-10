@@ -33,7 +33,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_RSFT)>;
         };
-        smart_shft: smart_shift {
+        smart_shift: smart_shift {
             compatible = "zmk,behavior-tap-dance";
             label = "SMART_SHIFT";
             #binding-cells = <0>;
@@ -109,7 +109,7 @@
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &kp Z         &kp X         &kp C         &kp D         &kp V             &kp K         &kp H       &kp COMMA      &kp DOT      &kp FSLH
 // ╰─────────────┴─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┴─────────────╯
-                                   &kp LGUI    &toggle_num   &smart_shft        &kp SPACE    &toggle_nav    &bspc_del
+                                   &kp LGUI    &toggle_num  &smart_shift        &kp SPACE    &toggle_nav    &bspc_del
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
                         >;
                 };
@@ -159,7 +159,7 @@
                 nav_layer {
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-       &kp TAB     &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP     &trans          &kp PG_UP     &kp PSCRN      &kp UP       &kp LC(Y)     &bspc_del
+       &kp TAB     &kp C_MUTE   &kp C_VOL_DN   &kp C_VOL_UP   &kp LC(B)         &kp PG_UP     &kp PSCRN      &kp UP       &kp LC(Y)     &bspc_del
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
       &sk LSHFT     &sk LCTRL      &sk LALT      &sk LGUI  &kp LC(BACKSPACE)    &kp PG_DN      &kp LEFT      &kp DOWN      &kp RIGHT      &kp ESC
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
