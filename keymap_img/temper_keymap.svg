@@ -214,7 +214,8 @@ path {
 </g>
 <g transform="translate(321, 246) rotate(30.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;smart_shft</tspan></text>
+<text x="0" y="0" class="key tap">⇧</text>
+<text x="0" y="40" class="key hold">⇪</text>
 </g>
 <g transform="translate(463, 246) rotate(-30.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-42" width="52" height="85" class="key"/>
@@ -588,9 +589,9 @@ path {
 <tspan x="0" dy="-0.6em">VOL</tspan><tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
-<g transform="translate(267, 58)" class="key trans keypos-4">
-<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(267, 58)" class="key keypos-4">
+<rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
+<text x="0" y="0" class="key tap">BOLD</text>
 </g>
 <g transform="translate(520, 58)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
