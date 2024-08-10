@@ -196,6 +196,7 @@ parse_config:
     '&ltog LGUI 7': {t: "Cancel\nSym", h: '$$mdil:menu$$'}
     '&ltog LGUI 8': {t: "Cancel\nFunc", h: '$$mdil:menu$$'}
     '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '$$mdil:menu$$'}
+    '&smart_shift': {t: '⇧', h: "⇪"}
     '&toggle_num': {t: "NUM", h: "TOG NUM"}
     '&toggle_nav': {t: "NAV", h: "TOG NAV"}
     '&plus_morph': {t: "+", s: "="}
@@ -310,6 +311,7 @@ parse_config:
     LA(RIGHT): ↠
     LG(LEFT): ⇤
     LG(RIGHT): ⇥
+    LC(B): "BOLD"
     LC(C): "COPY"
     LC(Z): "UNDO"
     LC(X): "CUT"
