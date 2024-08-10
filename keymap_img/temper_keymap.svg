@@ -77,7 +77,7 @@ path {
 }
 </style>
 <g transform="translate(30, 0)" class="layer-default">
-<text x="0" y="28" class="label">default:</text>
+<text x="0" y="28" class="label" id="default">default:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -234,7 +234,7 @@ path {
 </g>
 </g>
 <g transform="translate(30, 354)" class="layer-gaming">
-<text x="0" y="28" class="label">gaming:</text>
+<text x="0" y="28" class="label" id="gaming">gaming:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -395,7 +395,7 @@ path {
 </g>
 </g>
 <g transform="translate(30, 709)" class="layer-num">
-<text x="0" y="28" class="label">num:</text>
+<text x="0" y="28" class="label" id="num">num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -565,7 +565,7 @@ path {
 </g>
 </g>
 <g transform="translate(30, 1063)" class="layer-nav">
-<text x="0" y="28" class="label">nav:</text>
+<text x="0" y="28" class="label" id="nav">nav:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
@@ -737,7 +737,7 @@ path {
 </g>
 </g>
 <g transform="translate(30, 1417)" class="layer-fun">
-<text x="0" y="28" class="label">fun:</text>
+<text x="0" y="28" class="label" id="fun">fun:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 87)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key trans"/>
@@ -763,8 +763,9 @@ path {
 </g>
 <g transform="translate(520, 58)" class="key keypos-5">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
-<text x="0" y="0" class="key tap">gaming</text>
-<text x="0" y="24" class="key hold">toggle</text>
+<a href="#gaming">
+<text x="0" y="0" class="key tap layer-activator">gaming</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(580, 50)" class="key keypos-6">
 <rect rx="6" ry="6" x="-28" y="-26" width="55" height="52" class="key"/>
