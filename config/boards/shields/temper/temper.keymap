@@ -100,7 +100,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "I_DEBOUNCE";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <50>;
             bindings = <&kp I>, <&kp I>;
         };
     };

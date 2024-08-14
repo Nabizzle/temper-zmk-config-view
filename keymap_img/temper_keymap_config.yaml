@@ -200,6 +200,7 @@ parse_config:
     '&toggle_num': {t: "NUM", h: "TOG NUM"}
     '&toggle_nav': {t: "NAV", h: "TOG NAV"}
     '&plus_morph': {t: "+", s: "="}
+    '&i_debounce': 'I'
   skip_binding_parsing: false
   zmk_keycode_map:
     AMPERSAND: '&'
